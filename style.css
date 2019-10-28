@@ -1,0 +1,116 @@
+/*Style and fonts*/
+
+body {
+	text-align: center;
+	font-family: 'Raleway:100', sans-serif; 
+	background-color: : #b8d3d0;
+	font-size: 16pt;
+	color: #b4d9d0
+
+  }
+
+p {
+	font-family: 'Raleway:100', sans-serif; 
+	font-weight: lighter;
+	font-size: 14pt;
+	color: #63707e;
+}
+
+h3{
+	font-family: 'Playfair+Display+SC', sans-serif;
+    font-weight: 100;
+    letter-spacing: 5pt;
+    font-size: 32px;
+    color: #1c405c;
+}
+
+
+h1 {
+	color: #25232e;
+	font-size: 130pt;
+	text-align: center;
+	font-weight: lighter;
+	font-family: 'Playball', cursive;
+}
+
+#me {
+	border-radius: 50%;
+	size: 12pt;
+} 
+h2 {
+	color: #1c405c;
+	font-family: 'Playfair+Display+SC', sans-serif;
+	font-weight: 100;
+    letter-spacing: 5pt;
+    font-size: 32px;
+	text-align: center;	
+}
+
+h4 {
+	color: #38243b;
+	font-family: Lora:400i, sans-serif;
+	text-align: center;	
+	size: 24pt
+	font-weight : lighter;
+}
+
+a {
+	text-decoration: none;
+	color : #f1d4d4;
+}
+
+a:hover {
+	color:#FFA69E ;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.card-white {
+	background-color : white;
+	padding : 40px;
+	box-shadow : 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align : center;
+
+}
+
+.all{
+  width: 100%;
+  height: 50px;
+  width: 700px;
+margin: 40px auto;
+}
+.bloc1{
+  display: inline-block;
+  float: left;
+  align-items: center;
+}
+.bloc2{
+  display: inline-block;
+  
+
+}
+.bloc3{
+  display: inline-block;
+  float: right;
+}
